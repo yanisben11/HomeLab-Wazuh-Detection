@@ -12,11 +12,17 @@ Mise en place d'une infrastructure de sécurité (SIEM) complète pour surveille
 
 ## ⚙️ Scénario de Test & Réalisations
 1.  **Cartographie Réseau :** Utilisation de **Nmap** pour scanner les ports ouverts et valider les règles de pare-feu.
+
+![Scan Nmap](photo%201.png)
+
 2.  **Simulation d'Attaque :** Lancement d'un scan de vulnérabilités web via **Nikto**.
+
 3.  **Détection & Réponse :**
     * Configuration de règles personnalisées sur l'agent Wazuh.
     * Détection réussie des signatures d'attaque Nikto.
     * Génération d'alertes de sécurité (Rule ID 31101 - Web server 400 error code) dans le dashboard.
+
+![Alerte Wazuh](photo%202.png)
 
 ## 🚀 Compétences Validées
 - [x] Administration Système Linux & Windows
